@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f39c12"/>
+      <stop offset="100%" style="stop-color:#e67e22"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f1c40f"/>
+      <stop offset="100%" style="stop-color:#f39c12"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield / proxy shape -->
+  <path d="M128 30 L200 60 L200 140 C200 190 165 230 128 245 C91 230 56 190 56 140 L56 60 Z" fill="url(#grad1)" opacity="0.95"/>
+  <!-- Inner glow ring -->
+  <path d="M128 50 L182 72 L182 138 C182 178 155 210 128 222 C101 210 74 178 74 138 L74 72 Z" fill="url(#grad2)" opacity="0.85"/>
+  <!-- Arrow / proxy flow symbol -->
+  <path d="M128 95 L160 128 L128 161 M96 128 L160 128" stroke="#fff" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

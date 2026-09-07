@@ -1,0 +1,22 @@
+{
+  "PORT": {
+    "value": "8191",
+    "description": "FlareSolverr proxy port. Railway routes public traffic here."
+  },
+  "LOG_LEVEL": {
+    "value": "info",
+    "description": "Log level: debug, info, warn, error."
+  },
+  "LOG_HTML": {
+    "value": "false",
+    "description": "Log full HTML responses (debug only — very verbose)."
+  },
+  "CAPTCHA_SOLVER": {
+    "value": "none",
+    "description": "Captcha solver provider. 'none' for Cloudflare-only challenges."
+  },
+  "TZ": {
+    "value": "UTC",
+    "description": "Timezone for log timestamps."
+  }
+}

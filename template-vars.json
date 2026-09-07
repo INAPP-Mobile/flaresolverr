@@ -1,0 +1,47 @@
+{
+  "PORT": {
+    "defaultValue": "8191",
+    "description": "FlareSolverr proxy port. Railway injects PORT for routing.",
+    "isOptional": false
+  },
+  "LOG_LEVEL": {
+    "defaultValue": "info",
+    "description": "Log level: debug, info, warn, error.",
+    "isOptional": true
+  },
+  "LOG_FILE": {
+    "defaultValue": "",
+    "description": "Log file path. Empty for stdout only.",
+    "isOptional": true
+  },
+  "LOG_HTML": {
+    "defaultValue": "false",
+    "description": "Log full HTML responses (debug only — verbose).",
+    "isOptional": true
+  },
+  "CAPTCHA_SOLVER": {
+    "defaultValue": "none",
+    "description": "Captcha solver provider. 'none' for Cloudflare-only challenges.",
+    "isOptional": true
+  },
+  "TZ": {
+    "defaultValue": "UTC",
+    "description": "Timezone for log timestamps.",
+    "isOptional": true
+  },
+  "PROXY_URL": {
+    "defaultValue": "",
+    "description": "Upstream HTTP/SOCKS proxy URL (e.g. http://proxy:8080). Leave empty to disable.",
+    "isOptional": true
+  },
+  "PROXY_USERNAME": {
+    "defaultValue": "",
+    "description": "Proxy username. Only used with PROXY_URL.",
+    "isOptional": true
+  },
+  "PROXY_PASSWORD": {
+    "defaultValue": "",
+    "description": "Proxy password. Only used with PROXY_URL.",
+    "isOptional": true
+  }
+}
